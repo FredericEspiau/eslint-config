@@ -31,6 +31,10 @@ module.exports = {
     project: true,
   },
   plugins: ["functional", "total-functions"],
+  reportUnusedDisableDirectives: true,
+  rules: {
+    "import/order": "off",
+  },
   settings: {
     "import/parsers": {
       "@typescript-eslint/parser": [".ts"],
