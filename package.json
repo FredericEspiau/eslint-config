@@ -34,31 +34,31 @@
   "main": ".eslintrc.js",
   "name": "@espiau/eslint-config",
   "peerDependencies": {
-    "@eslint-community/eslint-plugin-eslint-comments": "=> 4",
-    "@shopify/eslint-plugin": "=> 43",
-    "@typescript-eslint/eslint-plugin": "=> 6",
-    "eslint": "=> 8",
-    "eslint-plugin-array-func": "=> 4",
-    "eslint-plugin-etc": "=> 2",
-    "eslint-plugin-functional": "=> 6",
-    "eslint-plugin-import": "=> 2",
-    "eslint-plugin-n": "=> 16",
-    "eslint-plugin-perfectionist": "=> 2",
-    "eslint-plugin-promise": "=> 6",
-    "eslint-plugin-regexp": "=> 1",
-    "eslint-plugin-security": "=> 1",
-    "eslint-plugin-sonar": "=> 0.12",
-    "eslint-plugin-sonarjs": "=> 0.21",
-    "eslint-plugin-total-functions": "=> 7",
-    "eslint-plugin-unicorn": "=> 48",
-    "typescript": "=> 5"
+    "@eslint-community/eslint-plugin-eslint-comments": ">=4",
+    "@shopify/eslint-plugin": ">=43",
+    "@typescript-eslint/eslint-plugin": ">=6",
+    "eslint": ">=8",
+    "eslint-plugin-array-func": ">=4",
+    "eslint-plugin-etc": ">=2",
+    "eslint-plugin-functional": ">=6",
+    "eslint-plugin-import": ">=2",
+    "eslint-plugin-n": ">=16",
+    "eslint-plugin-perfectionist": ">=2",
+    "eslint-plugin-promise": ">=6",
+    "eslint-plugin-regexp": ">=1",
+    "eslint-plugin-security": ">=1",
+    "eslint-plugin-sonar": ">=0.12",
+    "eslint-plugin-sonarjs": ">=0.21",
+    "eslint-plugin-total-functions": ">=7",
+    "eslint-plugin-unicorn": ">=48",
+    "typescript": ">=5"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FredericEspiau/eslint-config.git"
   },
   "scripts": {
-    "postversion": "git push && git push --tags && npm publish"
+    "postversion": "git push && git push --tags && npm publish --access public"
   },
   "version": "1.0.0"
 }
