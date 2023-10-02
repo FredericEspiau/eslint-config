@@ -33,6 +33,7 @@ module.exports = {
   plugins: ["functional", "total-functions"],
   reportUnusedDisableDirectives: true,
   rules: {
+    "functional/prefer-immutable-types": "off",
     "import/order": "off",
   },
   settings: {
